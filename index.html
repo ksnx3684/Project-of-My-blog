@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Blog - index</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aside_motion_style.css">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="colors_index.js"></script>
+  <!-- <script src="aside_motion.js"></script> -->
+</head>
+  <aside style="z-index:1;">
+    <div class="header">
+            <div class="menu_btn"><a href="#">
+            <img src="三흰색.svg">
+            </a>
+            </div>
+    </div>
+    <div class="menu_bg"></div>
+    <div class="sidebar_menu">
+         <div class="close_btn"><a href="#">
+             <img src="X흰색.svg">
+             </a>
+         </div>
+         <ul class="menu_wrap" style="font-size:30px">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="2.Information.html">Information</a></li>
+              <li><a href="3.게시글.html">게시글</a></li>
+         </ul>
+    </div>
+  <!-- <ol> -->
+  <h1>My Blog</h1>
+  <h2>ksnx3684</h2>
+  <div>
+  <!-- <li><a href="index.html">HOME</a></li>
+  <li><a href="2.Information.html">Information</a></li>
+  <li><a href="3.게시글.html">게시글</a></li> -->
+  <!-- </ol> -->
+  </aside>
+  <body>
+    <div id="background_button" style="z-index:2;">
+      <input type="button" value="night" onclick="nightDayHandler(this);">
+    </div>
+    <div id="grid">
+    </div>
+
+    <div id="article">
+      <h3 style="font-size:30px;">Welcome</h3>
+      이 웹사이트는 HTML / CSS / JavaScript / jquery 를 이용하여 제작되었으며, 모든 요소는 오픈소스 기반으로 이루어져 있습니다.
+      <p><img src="matheus-kohler-6J_qm8DJWnY-unsplash.jpg" width="300px" align="left">
+    </div>
+    <script src="aside_motion.js"></script>
+  </body>
+</html>
